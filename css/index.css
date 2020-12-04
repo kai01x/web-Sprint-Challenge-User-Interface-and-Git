@@ -60,9 +60,10 @@ header nav a{
 .flex-container2{
     display:flex;
     flex-flow: column;
-    justify-content:space-evenly;
-    align-content: flex-start;
-    align-content: flex-end;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+
 
 }
 
