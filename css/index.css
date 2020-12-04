@@ -29,8 +29,34 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
+
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    padding: 50px 1%;
+    font-size: 15px;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+.flex-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-content:stretch; 
+    background-color:white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    column-gap: 10px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -50,6 +76,7 @@ table {
 * {
     box-sizing: border-box;
 }
+
 
 html, body {
     height: 100%;
